@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <link rel = "icon" href ="img/logo.png"  type = "image/x-icon"> 
+	<title>gallery | NAGPUR</title>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="css/slideshow.css">
+  <link rel="stylesheet" type="text/css" href="css/gallery.css">
+  <script type="text/javascript" href="css/gallery.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+<style>
+  .gall{
+    margin:30px;
+  }
+  
+</style>
+</head> 
+<body>
+  <header>
+<div class="bgimage">
+  <!-- menu code start -->
+  <div class="menu">
+    <div class="leftmenu">
+      <div class="navbar-items"><li><img src="img/logo.png" style="width: 100px;height:100px;"></li></div>
+    </div>
+    <nav class="navbar-menus">
+      <ul>
+        <div class ="navbar-items"><a href="index.html"><li>Home</li></a></div>
+        <div class="navbar-items"><a href="place.html"><li> place</li></a></div>
+        <div class="navbar-items"><a href="inform.html"><li>information</li></a></div>
+        <div class="navbar-items"><a href="gallery.html"><li>gallery</li></a></div>
+        <div class="navbar-items"><a href="about.html"><li>about us</li></a></div>
+      </ul>
+    </nav>
+  </div>
+</div>
+</header>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<!--  end  -->
+
+<section class="gall">
+
+<!-- <div class="row">
+ Grid column
+
+</div> -->
+<!-- Grid row -->
+
+<!-- Grid row -->
+<div class="gallery" id="gallery">
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 2">
+    <img class="img-fluid" src="gallery/a.jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <!-- <div class="mb-3 pics animation all 1">
+    <img class="img-fluid" src="gallery/a_1.jpg" alt="Card image cap">
+  </div> -->
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 1">
+    <img class="img-fluid" src="gallery/a_6.jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 2">
+    <img class="img-fluid" src="gallery/a_3.jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 2">
+    <img class="img-fluid" src="gallery/a_4.jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+
+  <!-- Grid column -->
+  <div class="mb-3 pics animation all 1">
+    <img class="img-fluid" src="gallery/a_5.jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+   <!-- Grid column -->
+  <div class="mb-3 pics animation all 1">
+    <img class="img-fluid" src="gallery/a_7.jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+   <!-- Grid column -->
+  <div class="mb-3 pics animation all 2">
+    <img class="img-fluid" src="gallery/a_8.jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+   <!-- Grid column -->
+ <!--  <div class="mb-3 pics animation all 2">
+    <img class="img-fluid" src="gallery/a_9.jpg" alt="Card image cap">
+  </div> -->
+  <!-- Grid column -->
+   <!-- Grid column -->
+  <div class="mb-3 pics animation all 1">
+    <img class="img-fluid" src="gallery/a_10.jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+   <!-- Grid column -->
+  <div class="mb-3 pics animation all 1">
+    <img class="img-fluid" src="gallery/a_11.jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+   <!-- Grid column -->
+ <!--  <div class="mb-3 pics animation all 2">
+    <img class="img-fluid" src="gallery/a_12.jpg" alt="Card image cap">
+  </div> -->
+  <!-- Grid column -->
+   <!-- Grid column -->
+  <!-- <div class="mb-3 pics animation all 2">
+    <img class="img-fluid" src="gallery/a_13.jpg" alt="Card image cap">
+  </div> -->
+  <!-- Grid column -->
+
+ <!-- Grid column -->
+  <div class="mb-3 pics animation all 1">
+    <img class="img-fluid" src="gallery/a_14.jpg" alt="Card image cap">
+  </div>
+  <!-- Grid column -->
+   <!-- Grid column -->
+  <!-- <div class="mb-3 pics animation all 1">
+    <img class="img-fluid" src="gallery/a_15.jpg" alt="Card image cap">
+  </div> -->
+  <!-- Grid column -->
+ <!--  <div class="mb-3 pics animation all 2">
+    <img class="img-fluid" src="gallery/place10.jpg" alt="Card image cap">
+  </div> -->
+
+  <div class="mb-3 pics animation all 2">
+    <img class="img-fluid" src="gallery/place2.jpg" alt="Card image cap">
+  </div>
+
+  <div class="mb-3 pics animation all 1">
+    <img class="img-fluid" src="gallery/place3.jpg" alt="Card image cap">
+  </div>
+
+<!--   <div class="mb-3 pics animation all 1">
+    <img class="img-fluid" src="gallery/place4.jpg" alt="Card image cap">
+  </div> -->
+
+  <div class="mb-3 pics animation all 2">
+    <img class="img-fluid" src="gallery/place5.jpg" alt="Card image cap">
+  </div>
+  <div class="mb-3 pics animation all 2">
+    <img class="img-fluid" src="gallery/place6.jpg" alt="Card image cap">
+
+  </div>
+  <div class="mb-3 pics animation all 1">
+    <img class="img-fluid" src="gallery/place7.jpg" alt="Card image cap">
+  </div>
+
+  <div class="mb-3 pics animation all 1">
+    <img class="img-fluid" src="gallery/place8.jpg" alt="Card image cap">
+  </div>
+ <!--  <div class="mb-3 pics animation all 2">
+    <img class="img-fluid" src="gallery/place9.jpg" alt="Card image cap">
+  </div> -->
+</div>
+</section>
+<!-- Grid row -->
+
+<section id="footer-section">
+        <div id="footer-container">
+            <div class=" footer">
+                <footer>
+                    <h5>Copyright  &#169; rohit thakur and sagar satpute- 2020</h5>
+                </footer>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

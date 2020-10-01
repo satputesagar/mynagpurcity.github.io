@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <link rel = "icon" href ="img/logo.png"  type = "image/x-icon"> 
+	<title>place | NAGPUR</title>
+<link rel="stylesheet" type="text/css" href="css/gallery.css">
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="css/slideshow.css">
+</head>
+<body>
+    <header>
+<div class="bgimage">
+    <!-- menu code start -->
+    <div class="menu">
+        <div class="leftmenu">
+            <div class="navbar-items"><li><img src="img/logo.png" style="width: 100px;height:100px;"><li></div>
+        </div>
+        <nav class="navbar-menus">
+            <ul>
+                <div class ="navbar-items"><a href="index.html"><li>Home</li></a></div>
+                <div class="navbar-items"><a href="place.html"><li> place</li></a></div>
+                <div class="navbar-items"><a href="inform.html"><li>information<li></a></div>
+                <div class="navbar-items"><a href="gallery.html"><li>gallery</li></a></div>
+                <div class="navbar-items"><a href="about.html"><li>about us</li></a></div>
+            </ul>
+        </nav>
+    </div>
+</div>
+</header>
+<!-- menu code end -->
+<!--  slide show code -->
+<div class="slideshow-container">
+
+	<div class="mySlides fade">
+	  <div class="numbertext">1 / 3</div>
+	  	<img src="img\img_nature_wide.jpg" style="width:100%">
+	  <div class="text">Caption Text</div>
+	</div>
+
+	<div class="mySlides fade">
+	  <div class="numbertext">2 / 3</div>
+	 	 <img src="img\img_snow_wide.jpg" style="width:100%">
+	  <div class="text">Caption Two</div>
+	</div>
+
+	<div class="mySlides fade">
+	  <div class="numbertext">3 / 3</div>
+	  	<img src="img\img_mountains_wide.jpg" style="width:100%">
+	  <div class="text">Caption Three</div>
+	</div>
+
+	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+	<div style="text-align:center">
+	  <span class="dot" onclick="currentSlide(1)"></span> 
+	  <span class="dot" onclick="currentSlide(2)"></span> 
+	  <span class="dot" onclick="currentSlide(3)"></span> 
+	</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<!--  end  -->
+</section>
+
+ <section id="card-section">
+        <div>
+            <div class="cardss">
+                <div id="card-heading">
+                    <h3>Tourist Places</h3>
+                </div>
+                <div id="paragraph">
+                    <p>Here You will get to know about The Famous Tourist Places In Nagpur</p>
+                </div>
+                <div id="table-section"> 
+					<table>
+							<tr>
+		<td>
+			<div class="place">
+				<a href="./place/ambazari.html" target="_blank">
+					<div class="card-details">
+                         <div class="place-images">
+                         	<img src="img/ambazari.jpg" alt="tajmahal image">
+                         </div>
+                     <div class="places-names">
+                     	 <h4>ambazari</h4>
+                     </div>
+                 </div>
+             </a>
+         </div>
+		</td>
+		<td>
+			<div class="place">
+				<a href="./place/dhammaplace.html" target="_blank">
+					<div class="card-details">
+                         <div class="place-images">
+                         	<img src="img/dhammaplace.jpg" alt="tajmahal image">
+                         </div>
+                     <div class="places-names">
+                     	 <h4>dhammaplace</h4>
+                     </div>
+                 </div>
+             </a>
+         </div>
+		</td>
+		<td>
+			<div class="place">
+				<a href="./place/dimond.html" target="_blank">
+					<div class="card-details">
+                         <div class="place-images">
+                         	<img src="img/dimond cross.jpg" alt="tajmahal image">
+                         </div>
+                     <div class="places-names">
+                     	 <h4>dimond cross</h4>
+                     </div>
+                 </div>
+             </a>
+         </div>
+		</td>
+	</tr>
+		<tr>
+		<td>
+			<div class="place">
+				<a href="./place/jamtha.html" target="_blank">
+					<div class="card-details">
+                         <div class="place-images">
+                         	<img src="img/jamtha.jpg" alt="tajmahal image">
+                         </div>
+                     <div class="places-names">
+                     	 <h4>jamtha</h4>
+                     </div>
+                 </div>
+             </a>
+         </div>
+		</td>
+		<td>
+			<div class="place">
+				<a href="./place/khekdanala.html" target="_blank">
+					<div class="card-details">
+                         <div class="place-images">
+                         	<img src="img/khekdanala.jpg" alt="tajmahal image">
+                         </div>
+                     <div class="places-names">
+                     	 <h4>khekdanala</h4>
+                     </div>
+                 </div>
+             </a>
+         </div>
+		</td>
+		<td>
+			<div class="place">
+				<a href="./place/seminary.html" target="_blank">
+					<div class="card-details">
+                         <div class="place-images">
+                         	<img src="img/seminry hils.jpg" alt="tajmahal image">
+                         </div>
+                     <div class="places-names">
+                     	 <h4>seminary hils</h4>
+                     </div>
+                 </div>
+             </a>
+         </div>
+		</td>
+	</tr>
+</table>
+</div>
+</div>
+</div>
+
+</section>
+<section id="footer-section">
+        <div id="footer-container">
+            <div class=" footer">
+                <footer>
+                    <h4>Copyright &#169; rohit thakur and sagar satpute- 2020</h4>
+                </footer>
+            </div>
+        </div>
+    </section>
+
+	
+</body>
+</html>

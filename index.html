@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <link rel = "icon" href ="img/logo.png"  type = "image/x-icon"> 
+          
+	<title>NAGPUR</title>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+	<link rel="stylesheet" type="text/css" href="css/slideshow.css">
+	<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</head>
+<body>  
+	<header>
+<div class="bgimage">
+	<!-- menu code start -->
+	<div class="menu">
+		<div class="leftmenu">
+			<div class="navbar-items"><li><img src="img/logo.png" style="width: 100px;height:100px;"><li></div>
+		</div>
+		<nav class="navbar-menus">
+			<ul>
+				<div class ="navbar-items"><a href="index.html"><li>Home</li></a></div>
+				<div class="navbar-items"><a href="place.html"><li> place</li></a></div>
+				<div class="navbar-items"><a href="inform.html"><li>information<li></a></div>
+				<div class="navbar-items"><a href="gallery.html"><li>gallery</li></a></div>
+				<div class="navbar-items"><a href="about.html"><li>about us</li></a></div>
+			</ul>
+		</nav>
+	</div>
+</div>
+</header>
+<!-- menu code end -->
+<!--  slide show code -->
+<div class="slideshow-container">
+
+	<div class="mySlides fade">
+	  <div class="numbertext">1 / 3</div>
+	  	<img src="img\sildeshow1.jpg" style="width:100%;height:30%;">
+	  <div class="text">nagpur</div>
+	</div>
+
+	<div class="mySlides fade">
+	  <div class="numbertext">2 / 3</div>
+	 	 <img src="img\sildeshow2.jpg" style="width:100%">
+	  <div class="text">nagpur</div>
+	</div>
+
+	<div class="mySlides fade">
+	  <div class="numbertext">3 / 3</div>
+	  	<img src="img\sildeshow3.jpg" style="width:100%">
+	  <div class="text">Nagpur</div>
+	</div>
+
+	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+	<div style="text-align:center">
+	  <span class="dot" onclick="currentSlide(1)"></span> 
+	  <span class="dot" onclick="currentSlide(2)"></span> 
+	  <span class="dot" onclick="currentSlide(3)"></span> 
+	</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</section>
+<section>
+<div class="inform-container">
+	<div class="main-heading">
+	<h3><b><u>NAGPUR</u></b></h3>
+</div>
+<div class="paragraph">
+	<p> Nagpur is the seat of the annual winter session of the Maharashtra state assembly. It is a major commercial and political centre of the Vidarbha region of Maharashtra. In addition, the city derives unique importance from being an important location for the Dalit Buddhist movement and the headquarters for the Hindu nationalist organisation RSS. Nagpur is also known for the Deekshabhoomi, which is graded an A-class tourism and pilgrimage site, the largest hollow stupa among all the Buddhist stupas in the world.</p><br/>
+	<p>According to a survey by ABP News-Ipsos, Nagpur was identified as the best city in India topping in livability, greenery, public transport, and health care indices in 2013.The city was adjudged the 20th cleanest city in India and the top mover in the western zone as per Swachh Sarvekshan 2016. It was awarded as the best city for innovation and best practice in Swachh Sarvekshan 2018. It was also declared as open defecation free in January 2018 under Swachh Bharat Mission.It is also one of the safest cities for women in India.The city also ranks 31st in Ease of Living index among 111 cities in India.It was ranked the 8th most competitive city in the country by the Institute for Competitiveness for the year 2017.</p><br/>
+	<p>It is famous for Nagpur oranges and is sometimes known as the Orange City for being a major trade center of oranges cultivated in large part of the region.[30] It is also called the Tiger Capital of India or the Tiger Gateway of India as many tiger reserves are located in and around the city and also hosts the regional office of National Tiger Conservation Authority.The city was founded in 1703 by the Gonds King Bakht Buland Shah of Deogarh and later became a part of the Maratha Empire under the royal Bhonsale dynasty. The British East India Company took over Nagpur in the 19th century and made it the capital of the Central Provinces and Berar. After the first re-organisation of states, the city lost its status as the capital. Following the informal Nagpur Pact between political leaders, it was made the second capital of Maharashtra.</p>
+</div>
+</div>
+</section>
+<section class="population">
+<div class="popu">
+	<div class="popu-heading">
+		<h1>Nagpur, India Metro Area Population 2005-2020</h1>
+	</div>
+	<div class="popu-para">
+		<p>Chart and table of population level and growth rate for the Nagpur, India metro area from 2005 to 2020. United Nations population projections are also included through the year 2035.</p>
+		<li>The current metro area population of Nagpur in 2020 is 2,893,000, a 1.51% increase from 2019.</li>
+		<li>The metro area population of Nagpur in 2019 was 2,850,000, a 1.5% increase from 2018.</li>
+		<li>The metro area population of Nagpur in 2018 was 2,808,000, a 1.59% increase from 2017.</li>
+		<li>The metro area population of Nagpur in 2017 was 2,764,000, a 1.62% increase from 2016.</li>
+	</div>
+</div>
+
+</section>
+<section class="Historical">
+	<h5>nagpur</h5>
+	<script>
+		window.onload = function () {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	// theme: "light2",
+	title:{
+		text: "Historical Population "
+	},
+	data: [{        
+		type: "line",
+      	indexLabelFontSize: 16,
+		dataPoints: [
+			{ y: 450 },
+			{ y: 414},
+			{ y: 520},
+			{ y: 460 },
+			{ y: 450 },
+			{ y: 500 },
+			{ y: 480 },
+			{ y: 480 },
+			{ y: 410 },
+			{ y: 500 },
+			{ y: 480 },
+			{ y: 510 }
+		]
+	}]
+});
+chart.render();
+
+}
+	</script>
+	<div id="chartContainer" style="height: 300px; width: 100%;"></div>	
+	<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</section>
+<section>
+	<div>
+		<div class="popu">
+			<table class="popu-table">
+				<div class="popu-heading">
+			<h1>Nagpur - Historical Population Data</h1>
+		</div>
+				<tr>
+					<th>Year</th>
+					<th>Population</th>
+					<th>Growth Rate</th>
+				</tr>
+				<tr>
+					<td>2020</td>
+					<td>2,893,000</td>
+					<td>1.51%</td>
+				</tr>
+					<tr>
+					<td>2019</td>
+					<td>2,850,000</td>
+					<td>1.50%</td>
+				</tr>
+				<tr>
+					<td>2018</td>
+					<td>2,808,000</td>
+					<td>1.59</td>
+				</tr>
+				<tr>
+					<td>2017</td>
+					<td>2,764,000</td>
+					<td>1.62%</td>
+				</tr>
+				<tr>
+					<td>2016</td>
+					<td>2,720,000</td>
+					<td>1.61%</td>
+				</tr>
+				<tr>
+					<td>2015</td>
+					<td>2,677,000</td>
+					<td>1.63%</td>
+				</tr>
+				<tr>
+					<td>2014</td>
+					<td>2,634,000</td>
+					<td>1.58%</td>
+				</tr>
+				<tr>
+					<td>2013</td>
+					<td>2,593,000</td>
+					<td>1.60%</td>
+				</tr>
+				<tr>
+					<td>2012</td>
+					<td>2,552,000</td>
+					<td>1.51%</td>
+				</tr>
+				<tr>
+					<td>2011</td>
+					<td>2,511,000</td>
+					<td>1.51%</td>
+				</tr>
+				<tr>
+					<td>2009</td>
+					<td>2,471,000</td>
+					<td>1.51%</td>
+				</tr>
+				<tr>
+					<td>2008</td>
+					<td>2,394,000</td>
+					<td>1.51%</td>
+				</tr>
+				<tr>
+					<td>2007</td>
+					<td>2,356,000</td>
+					<td>1.51%</td>
+				</tr>
+				<tr>
+					<td>2006</td>
+					<td>2,319,000</td>
+					<td>1.51%</td>
+				</tr>
+				<tr>
+					<td>2005</td>
+					<td>2,282,000</td>
+					<td>1.51%</td>
+				</tr>
+			</table>
+			
+		</div>
+	</div>
+</section>
+<section id="footer-section">
+        <div id="footer-container">
+            <div class=" footer">
+                <footer>
+                    <h4>Copyright  &#169; rohit thakur and sagar satpute- 2020</h4>
+                </footer>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
